@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PhotoDisplay">
+
+    <RelativeLayout
+        android:id="@+id/dispPhoto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/currImage"
+            android:layout_width="match_parent"
+            android:layout_height="410dp"
+            android:background="@color/albumFore"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <ListView
+            android:id="@+id/tags"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_below="@+id/currImage"
+            android:layout_marginTop="0dp"
+            android:background="@android:color/background_light" />
+    </RelativeLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

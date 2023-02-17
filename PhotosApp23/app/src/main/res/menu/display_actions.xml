@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/slideshow"
+        android:title="@string/slideshow"
+        android:visible="true" />
+    <item
+        android:id="@+id/addTag"
+        android:title="@string/add_tag"/>
+    <item
+        android:id="@+id/move"
+        android:title="@string/move_photo"/>
+</menu>

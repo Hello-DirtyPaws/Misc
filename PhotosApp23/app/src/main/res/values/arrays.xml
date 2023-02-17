@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="albumMenu">
+        <item>Rename</item>
+        <item>Delete</item>
+    </string-array>
+
+    <string-array name="photosMenu">
+        <item>Copy</item>
+        <item>Delete</item>
+    </string-array>
+
+    <string-array name="tagtypes">
+        <item>Person</item>
+        <item>Location</item>
+    </string-array>
+</resources>
