@@ -1,0 +1,84 @@
+
+body {
+/* 	background-image: linear-gradient(to right, #ff6e7f , #bfe9ff) ;
+ */  background-color: #e1e8f0;
+  color: black;
+  margin: 20px;
+  padding: 20px;
+ 
+} 
+
+/* .button {
+  background-image: linear-gradient(to right, #77A1D3 , #79CBCA,#E684AE ) ;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  width: 33%;
+  font-size: 16px;
+  
+} */
+
+.button {
+  display: block;
+width: 250px;
+  border: none;
+  background-color: #729fcf;
+/* background-image: linear-gradient(to right, #77A1D3 , #79CBCA,#E684AE ) ; */
+  padding: 10px 10px;
+   font-size: 16px;
+   
+  cursor: pointer;
+  
+ text-align: center; 
+}
+
+a {
+  background-color: #729fcf;
+  color: black;
+  display: inline-block;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #555;
+}
+
+
+.button1 {
+  display: block;
+width: 50px;
+  border: none;
+background-color: blue;
+  padding: 10px 10px;
+   font-size: 12px;
+  cursor: pointer;
+ text-align: center; 
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+  background-color:  #e1e8f0;
+  color: black;
+}
+/* #form {
+  display: block;
+  width: 50%;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+} */
